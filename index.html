@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>trackster</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./resources/js/trackster.js"></script>
+  <script type="text/javascript" src="./resources/js/tests.js"></script>
+  <script type="text/javascript" src="./resources/js/numeral.min.js"></script>
+</head>
+<body>
+  <!--Header Search Bar-->
+  <div class="container-fluid">
+    <div class="row header">
+      <h1 class="col-xs-7 col-xs-offset-1">trackster</h1>
+      <input class="col-xs-2" id="search-input" type="text" placeholder="Watcha lookin' for?">
+      <i class="fas fa-search fa-2x col-xs-1" id="search-button"></i>
+    </div>
+  </div>
+
+  <!--Track Label Bar-->
+  <div class="container-fluid">
+    <div class="row label-bar">
+      <h5 class="col-xs-4 col-xs-offset-2">Song</h5>
+      <h5 class="col-xs-2">Artist</h5>
+      <h5 class="col-xs-2">Album Art</h5>
+      <h5 class="col-xs-2">Popularity</h5>
+      <h5 class="col-xs-2"></h5>
+    </div>
+  </div>
+  <div class="container-fluid flex-column">
+    <div class="row track col-xs-12" id="track-list">
+      <div class="col-xs-1 col-xs-offset-1 play-button">
+        <a href="https://youtu.be/eI_O5_tJ1hA"><i>
+        </i>
+        </a>
+      </div>
+      <div class="col-xs-4 "></div>
+      <div class="col-xs-2"></div>
+      <div class="col-xs-2"></div>
+      <div class="col-xs-2"></div>
+    </div>
+
+  </div>
+</body>
+</html>
